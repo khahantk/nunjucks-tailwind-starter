@@ -1,8 +1,8 @@
 {
-  "name": "bonus",
-  "description": "bonus",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nunjucks-tailwind-starter",
+  "description": "A basic frontend setup with Gulp, Tailwind CSS and Nunjucks.",
+  "version": "0.2.0",
+  "private": false,
   "scripts": {
     "start": "gulp"
   },
