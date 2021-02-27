@@ -15,6 +15,7 @@ gulp.task(
 gulp.task(
   "build",
   gulp.series(
+    "prebuild",
     "clean",
     gulp.parallel("fonts", "images", "styles", "scripts", "html")
   )
