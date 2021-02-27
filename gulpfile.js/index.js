@@ -12,4 +12,11 @@ gulp.task(
     gulp.parallel("server", "watch")
   )
 );
+gulp.task(
+  "build",
+  gulp.series(
+    "clean",
+    gulp.parallel("fonts", "images", "styles", "scripts", "html")
+  )
+);
 module.exports = gulp.task("default");

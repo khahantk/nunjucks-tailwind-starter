@@ -12,9 +12,9 @@
     @apply text-2xl font-light;
   }
   a {
-    @apply text-blue;
+    @apply text-blue-500;
   }
   body {
-    @apply font-sans text-primary text-base;
+    @apply font-sans text-gray-800 text-base;
   }
 }

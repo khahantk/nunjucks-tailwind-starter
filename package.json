@@ -3,8 +3,12 @@
   "description": "A basic frontend setup with Gulp, Tailwind CSS and Nunjucks.",
   "version": "0.2.0",
   "private": false,
+  "author": "Chung Nguyen",
+  "license": "MIT",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build":"gulp build",
+    "clean":"gulp clean"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",

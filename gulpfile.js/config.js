@@ -7,7 +7,7 @@ module.exports = {
     dest: "public",
   },
   html: {
-    src: `${BASE}/src/html/**/*`,
+    src: `${BASE}/src/html/*.html`,
     includes: `${BASE}/src/html`,
     watch: `${BASE}/src/html/**/*`,
     dest: `${BASE}/public`,
