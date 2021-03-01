@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    content: ["./public/**/*.html"],
+    content: ["./src/html/**/*.html"],
     options: {
       whitelistPatterns: [
         /-(leave|enter|appear)(|-(to|from|active))$/,

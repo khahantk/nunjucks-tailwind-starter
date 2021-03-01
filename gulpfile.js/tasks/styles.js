@@ -13,7 +13,12 @@ const styles = () => {
   };
   return gulp
     .src(paths.src)
-    .pipe(postcss([require("postcss")(tailwindcss()), autoprefixer()]))
+    .pipe(
+      postcss([
+        require("postcss")(tailwindcss("./tailwind.config.js")),
+        autoprefixer(),
+      ])
+    )
     .pipe(gulpif(global.production, cssnano()))
     .pipe(gulp.dest(paths.dest));
 };
